@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Task 4</title>
+</head>
+<body>
+    <table border="1" cellpadding="5" cellspacing="2">
+        <tr >
+            <td colspan="4" style="text-align: center;"><b>Registration Form</b></td>
+        </tr>
+
+        <tr>
+            <td><label for="name">Student's Name</label></td>
+            <td><input type="text" name="fname" id="name" placeholder="First Name"></td>
+            <td><input type="text" name="mname" id="name" placeholder="Middle Name"></td>
+            <td><input type="text" name="lname" id="name" placeholder="Last Name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="fathername">Father's Name</label></td>
+            <td><input type="text" name="fathername" id="fathername" placeholder="Enter Father's Name"></td>
+            <td><label for="mothername">Mother's Name</label></td>
+            <td><input type="text" name="mothername" id="mothername" placeholder="Enter Mother's Name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="date">Date of Birth</label></td>
+            <td><input type="date" name="date" id="date"></td>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                <input type="radio" name="gender" id="gender">Male
+                &nbsp;<input type="radio" name="gender" id="gender">Female
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="category">Category</label></td>
+            <td>
+                <input type="radio" name="category" id="category">Gen
+                <input type="radio" name="category" id="category">OBC
+                <input type="radio" name="category" id="category">SC/ST
+            </td>
+            <td><label for="disablity">Handicapped</label></td>
+            <td>
+                <input type="radio" name="disablity" id="disablity">Yes
+                <input type="radio" name="disablity" id="disablity">No
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="ExS">Ex-Serviceman</label></td>
+            <td>
+                <input type="radio" name="ExS" id="ExS">Yes
+                <input type="radio" name="ExS" id="ExS">No
+            </td>
+            <td><label for="ews">EWS</label></td>
+            <td>
+                <input type="radio" name="ews" id="ews">Yes
+                <input type="radio" name="ews" id="ews">No
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email Id</label></td>
+            <td><input type="email" name="email" id="email" placeholder="Enter Email Id"></td>
+            <td><label for="phone">Mobile No.</label></td>
+            <td><input type="number" name="phone" id="phone" placeholder="Enter Mobile No."></td>
+        </tr>
+
+        <tr>
+            <td><label for="state">State</label></td>
+            <td><select name="state" id="state">
+                <option value="">Select State</option>
+                <option value="mp">Madhya Pradesh</option>
+                <option value="ka">Karnataka</option>
+                <option value="rj">Rajasthan</option>
+                <option value="gj">Gujarat</option>
+                <option value="mh">Maharastra</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="jk">Jammu & Kashmir</option>
+            </select></td>
+
+            <td><label for="city">City</label></td>
+            <td>
+                <select name="city" id="city">
+                    <option value="bpl">Bhopal</option>
+                    <option value="baq">Ganj Basoda</option>
+                    <option value="ind">Indore</option>
+                    <option value="bglr">Bangalore</option>
+                    <option value="jai">Jaipur</option>
+                    <option value="udy">Udaipur</option>
+                    <option value="hyd">Hyderabad</option>
+                    <option value="pun">Pune</option>
+                    <option value="mub">Mumbai</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="up">Upload Photo</label></td>
+            <td><input type="file" name="up" id="up"></td>
+            <td><label for="us">Upload Signature</label></td>
+            <td><input type="file" name="us" id="us"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td colspan="3" style="text-align: center;"><button type="submit">Submit</button></td>
+        </tr>
+        </table>
+</body>
+</html>
