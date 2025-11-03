@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    color: black;
+}
+
+h1{
+    font-family: "Nunito", sans-serif;
+    color: aqua;
+}
+
+#id{
+    color: blue;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    background-color: aqua;
+    
+}
+
+h1{
+    background-color: antiquewhite;
+}
+
+p
+{
+    background-color: #fff;
+    color:blue;
+}
+
+.A{
+    background-color: pink;
+}
+
+#para1{
+    background-color: orange;
+} */
