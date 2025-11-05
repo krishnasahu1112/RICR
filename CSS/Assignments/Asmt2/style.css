@@ -1,0 +1,78 @@
+body{
+    background-color: royalblue;
+}
+
+#login{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: none;
+}
+
+
+#username{
+    border: none;
+    background-color: aliceblue;
+    input{
+        font-size: larger;
+    }
+}
+
+#email{
+    border: none;
+    background-color: aliceblue;
+    input{
+        font-size: larger;
+    }
+}
+
+#password{
+    border: none;
+    background-color: aliceblue;
+    input{
+        font-size: larger;
+        padding-right: 60px;
+    }
+}
+
+#remember{
+    font-size: large;
+    #rem1{
+        padding-right: 7rem;
+    }
+    padding: 20px 0px 30px;
+}
+
+#hr1{
+    margin: 10px 0 25px;
+}
+
+#mainbox{
+    margin: 100px auto;
+    padding: 40px;
+    background-color: aliceblue;
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#loginButton{
+    text-align: center;
+    box-sizing: 100px;
+    button{
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        width: 360px;
+        height: 50px;
+        background-color: blue;
+        border: none;
+        border-radius: 10px;
+    }
+
+}
+
+#signup{
+    padding: 30px;
+    text-align: center;
+}
+

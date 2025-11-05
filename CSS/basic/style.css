@@ -4,14 +4,21 @@
     color: black;
 }
 
+#id{
+    color: blue;
+}
+
 h1{
     font-family: "Nunito", sans-serif;
     color: aqua;
 }
 
-#id{
-    color: blue;
+.wall{
+  /* font-family: "Nunito", sans-serif; */
+   font-family: "Momo Signature", cursive;
 }
+
+
 
 
 

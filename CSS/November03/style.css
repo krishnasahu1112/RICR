@@ -1,0 +1,49 @@
+#mainbox{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: rgb(150, 246, 255); 
+    padding: 15px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: blue;
+    background-image: url(./flor.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#head{
+    padding: 30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#username{
+    padding: 10px;
+    label{
+        font-size: 20px;
+        padding: 17px;
+    }
+    input{
+        border: 10px;
+        border-color: black;
+        border-radius: 10rem;
+    }
+}
+
+#password{
+    padding: 10px;
+    label{
+        font-size: 20px;
+        padding: 25px;
+    }
+    input{
+        border: 10px;
+        border-color: black;
+        border-radius:25px;
+    }
+}
+
