@@ -1,0 +1,69 @@
+*{
+
+}
+
+h1{
+    display: flex;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 0px;
+    
+}
+
+#outer{
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    #inner{
+        width: 1px;
+        height: 50px;
+        background-color: red;
+    }
+}
+
+#outer1{
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    #inner1{
+        
+        height: 50px;
+       
+    }
+}
+
+
+
+#outer:hover{
+    #inner{
+        width: 500px;
+        background-color: greenyellow;
+        transition: width 5s ease-in, background-color 5s linear;/*linear easeme easeout   */
+        /* transition: background-color 5s linear;; */
+    }
+}
+
+#outer1:hover{
+    #inner1{
+       
+        animation: myAnimation 5s linear; 
+    }
+}
+
+@keyframes myAnimation {
+    0%{
+        width: 0%;
+        background-color: red;
+    }
+    50%{
+        width: 50%;
+        background-color: yellow;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+
+}

@@ -1,0 +1,46 @@
+*{
+
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 5px solid black;
+    background-color: #fff;
+    animation: movingBox 3s linear infinite;
+    transform: rotate(360deg);
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@keyframes movingBox {
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: aqua;
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+        background-color: blueviolet;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: chocolate;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+        background-color: rebeccapurple;
+    }
+    100%{
+        top: 0%;
+        left: 0%;
+        background-color: brown;
+    }
+}

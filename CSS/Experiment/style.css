@@ -1,0 +1,26 @@
+*{
+
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-green{
+    background-color: greenyellow;
+}
+.bg-blue{
+    background-color: skyblue;
+}
+
+.font-large{
+    font-size: xx-large;
+} 
