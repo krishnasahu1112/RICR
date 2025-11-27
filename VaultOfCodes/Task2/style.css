@@ -1,4 +1,4 @@
-/* ===== Global Blueprint Background ===== */
+
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     background-size: 35px 35px;
 }
 
-/* ===== Header Section ===== */
+
 header {
     padding: 20px;
     text-align: center;
@@ -21,7 +21,7 @@ header {
     letter-spacing: 2px;
 }
 
-/* ===== Neon Card Layout ===== */
+
 .container {
     width: 90%;
     margin: auto;
@@ -41,14 +41,14 @@ header {
     transition: 0.3s ease;
 }
 
-/* Hover Animation */
+
 .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 0 22px rgba(0, 240, 255, 0.8);
     border-color: #5afefd;
 }
 
-/* ===== Buttons ===== */
+
 button {
     padding: 12px 22px;
     border: none;
@@ -67,7 +67,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* ===== Inputs ===== */
+
 input, select, textarea {
     width: 100%;
     padding: 12px;
@@ -85,7 +85,7 @@ input:focus, select:focus, textarea:focus {
     box-shadow: 0 0 15px rgba(0, 240, 255, 0.7);
 }
 
-/* ===== Headings ===== */
+
 h2, h3 {
     color: #5afefd;
     text-shadow: 0 0 10px #00eaff;

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="d-flex justify-content-center p-5">
+      <div class="w-25 bg-black p-3 border rounded-4">
+        <div>
+          <input
+            type="text"
+            name="Result"
+            placeholder="0"
+            id="Display"
+            class="w-100 p-4 rounded border transparent"
+          />
+        </div>
+        <div class="d-flex justify-content-between gap-2 my-3 w-100">
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="7"
+            onclick="inputValue('7')"
+          >
+            7
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="8"
+            onclick="inputValue('8')"
+          >
+            8
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="9"
+            onclick="inputValue('9')"
+          >
+            9
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="/"
+            onclick="inputValue('/')"
+          >
+            /
+          </button>
+        </div>
+        <div class="d-flex align-items-center gap-2 my-3 w-100">
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="4"
+            onclick="inputValue('4')"
+          >
+            4
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="5"
+            onclick="inputValue('5')"
+          >
+            5
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="6"
+            onclick="inputValue('6')"
+          >
+            6
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="*"
+            onclick="inputValue('*')"
+          >
+            *
+          </button>
+        </div>
+        <div class="d-flex align-items-center gap-2 my-3 w-100">
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="3"
+            onclick="inputValue('3')"
+          >
+            3
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="2"
+            onclick="inputValue('2')"
+          >
+            2
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="1"
+            onclick="inputValue('1')"
+          >
+            1
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="-"
+            onclick="inputValue('-')"
+          >
+            -
+          </button>
+        </div>
+        <div class="d-flex align-items-center gap-2 my-3 w-100">
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="."
+            onclick="inputValue('.')"
+          >
+            .
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="0"
+            onclick="inputValue('0')"
+          >
+            0
+          </button>
+          <button
+            class="btn text-bg-warning text-white w-25 fs-3"
+            id="+"
+            onclick="inputValue('+')"
+          >
+            +
+          </button>
+          <button
+            class="btn text-bg-danger text-white w-25 fs-3"
+            id="C"
+            onclick="inputValue('C')"
+          >
+            C
+          </button>
+        </div>
+        <div class="d-flex align-items-center gap-2 w-100">
+          <button class="btn text-bg-danger text-white w-100 fs-3" onclick="inputValue('=')">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
