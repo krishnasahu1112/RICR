@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DICE GAME</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="bg-info w-100 text-center p-2">
+        <h2 class="text-light"><b>DICE GAME</b></h2>
+      </div>
+    </header>
+
+    <main class="w-100 px-5 d-flex justify-content-around">
+      <div
+        class="w-50 m-5 border border-2 border-black rounded shadow-lg gap-3 d-flex flex-column align-items-center p-3"
+      >
+        <h3>Player 1</h3>
+        <img
+          class="w-25 rounded-4 d-grid align-content-center 1875rem"
+          src="./images/6.png"
+          alt="dice"
+          id="p1img"
+        />
+        <button
+          class="btn btn-primary w-25 "
+          disabled
+          onclick="p1play()"
+          id="rolldice1"
+        >
+          Roll Dice
+        </button>
+      </div>
+
+      <div
+        class="w-50 m-5 border border-2 border-black rounded shadow-lg d-flex flex-column align-items-center p-3 gap-3"
+      >
+        <h3>Player 2</h3>
+        <img id="p2img" class="w-25 rounded-4" src="./images/6.png" alt="dice" />
+        <button
+          class="btn btn-primary w-25 "
+          disabled
+          id="rolldice2"
+          onclick="p2play()"
+        >
+          Roll Dice
+        </button>
+      </div>
+    </main>
+
+    <footer class="d-flex flex-column align-items-center">
+      <h3 class="p-3"><b>Score Board</b></h3>
+      <div class="d-flex w-100 justify-content-center">
+        <div class="mx-5 w-25 text-center">
+          <h4 >Player 1</h4>
+          <label for="p1score" class="text-center" id="p1sc">0</label>
+        </div>
+        <div class="mx-5 w-25 text-center ">
+          <h4 >Player 2</h4>
+          <label for="p2score" class="text-center" id="p2sc">0</label>
+        </div>
+      </div>
+      <div>
+        <button
+          class="btn btn-success text-white border-white mx-5 p-2"
+          id="startbtn"
+          onclick="start()"
+        >
+          Start Game
+        </button>
+        <button
+          class="btn btn-danger text-white border-white mx-5 p-2"
+          id="restartbtn"
+          disabled
+          onclick="restart()"
+        >
+          Restart Game
+        </button>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
