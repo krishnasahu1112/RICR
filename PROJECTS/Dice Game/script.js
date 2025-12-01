@@ -26,24 +26,31 @@ function p1play() {
     switch(DF) {
         case 1:{
             document.getElementById("p1img").src = "./images/1.png";
+            break;
         }
         case 2:{
             document.getElementById("p1img").src = "./images/2.png";
+            break;
         }
         case 3:{
             document.getElementById("p1img").src = "./images/3.png";
+            break;
         }
         case 4:{
             document.getElementById("p1img").src = "./images/4.png";
+            break;
         }
         case 5:{
             document.getElementById("p1img").src = "./images/5.png";
+            break;
         }
         case 6:{
             document.getElementById("p1img").src = "./images/6.png";
+            break;
         }
         default:{
             document.getElementById("p1img").src = "./images/6.png";
+            break;
         }
     }
 
@@ -55,37 +62,42 @@ function p1play() {
         Score = Score + DF;
         document.getElementById("p1sc").innerText = Score;
     }
-    
     console.log(DF);
-    
 }
 
 function p2play() {
     console.log("Player2Playing");
-    let Score = Number(document.getElementById("p1sc").innerText);
+    let Score = Number(document.getElementById("p2sc").innerText);
     const DF = Math.floor(Math.random()*6) + 1;
 
     switch(DF) {
         case 1:{
             document.getElementById("p2img").src = "./images/1.png";
+            break;
         }
         case 2:{
             document.getElementById("p2img").src = "./images/2.png";
+            break;
         }
         case 3:{
-            document.getElementById("p3img").src = "./images/3.png";
+            document.getElementById("p2img").src = "./images/3.png";
+            break;
         }
         case 4:{
-            document.getElementById("p4img").src = "./images/4.png";
+            document.getElementById("p2img").src = "./images/4.png";
+            break;
         }
         case 5:{
-            document.getElementById("p5img").src = "./images/5.png";
+            document.getElementById("p2img").src = "./images/5.png";
+            break;
         }
         case 6:{
-            document.getElementById("p6img").src = "./images/6.png";
+            document.getElementById("p2img").src = "./images/6.png";
+            break;
         }
         default:{
-            document.getElementById("p1img").src = "./images/6.png";
+            document.getElementById("p2img").src = "./images/6.png";
+            break;
         }
     }
 
