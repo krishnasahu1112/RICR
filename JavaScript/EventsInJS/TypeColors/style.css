@@ -5,6 +5,13 @@
     border-radius: 50%;
 }
 
+#Bulb1{
+    padding: 50px;
+    width: fit-content;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
 button{
     margin: 10px;
 }
@@ -21,4 +28,33 @@ button{
 
 .on{
     background-color: yellow;
+}
+
+#colors{
+    display: flex;
+}
+
+#color1{
+    background-color: violet;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#color2{
+    background-color: indigo;
+}
+#color3{
+    background-color: blue;
+}
+#color4{
+    background-color: green;
+}
+#color5{
+    background-color: yellow;
+}
+#color6{
+    background-color: orange;
+}
+#color7{
+    background-color: red;
 }

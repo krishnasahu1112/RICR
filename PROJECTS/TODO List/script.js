@@ -3,7 +3,7 @@ function AddTask(){
     console.log(task);
 
     if(task){
-         const l = document.createElement("li");
+        const l = document.createElement("li");
         l.classList.add("p-2", "d-flex", "align-items-center", "border", "border-bottom");
 
         const d = document.createElement("div");
@@ -13,7 +13,7 @@ function AddTask(){
         const b = document.createElement("button");
         b.classList.add("btn", "btn-danger", "ms-3");
         b.innerHTML=`<i class="bi bi-trash"></i> Delete`;
-        b.onclick = () =>{
+        b.onclick = () => {
             l.remove();
         };
 

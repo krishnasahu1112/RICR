@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smart Bulb</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <div id="Bulb">Bulb</div>
+
+    <div id="Bulb1">
+        Rainbow
+    </div>
+    <br>
+
+    <div id="colors">
+        <div><input type="color" name="color" id="color1"></div>
+        <div><input type="color" name="color" id="color2"></div>
+        <div><input type="color" name="color" id="color3"></div>
+        <div><input type="color" name="color" id="color4"></div>
+        <div><input type="color" name="color" id="color5"></div>
+        <div><input type="color" name="color" id="color6"></div>
+        <div><input type="color" name="color" id="color7"></div>
+
+    </div>
+
+
+    
+    <hr>
+    <div id="Bulb"> Bulb</div>
     <button onclick="On()">ON</button>
     <button onclick="Off()">OFF</button>
     <button onclick="Red()">RED</button>
@@ -22,9 +42,8 @@
     </div>
     <br>
     <button id="SB_btn" onclick="SB_Control()">On</button>
-
     <button id="SB_btn" onclick="SB_Control2()">On/Off</button>
-
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

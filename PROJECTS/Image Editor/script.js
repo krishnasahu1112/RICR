@@ -127,4 +127,5 @@ function download() {
   document.body.appendChild(anchorTag);
   anchorTag.click();
   document.body.removeChild(anchorTag);
+  
 }
