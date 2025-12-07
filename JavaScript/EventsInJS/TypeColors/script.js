@@ -38,8 +38,6 @@ function SB_Control2(){
 }
 
 
-
-
 document.getElementById("color1").addEventListener("mouseenter", ()=>{
     fillColor("violet")
 })

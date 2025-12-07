@@ -1,0 +1,33 @@
+body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #f2f2f2;
+    }
+
+    #searchBox {
+        margin-top: 20px;
+    }
+
+    #map-container {
+        position: relative;
+        width: 700px;
+        margin: 30px auto;
+    }
+
+    #indiaMap {
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .flag {
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        transform: translate(-50%, -50%);
+    }
+
+    #msg {
+        margin-top: 10px;
+        color: red;
+        font-weight: bold;
+    }

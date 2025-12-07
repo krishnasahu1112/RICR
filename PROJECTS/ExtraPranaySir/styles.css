@@ -1,0 +1,48 @@
+/* ... (body, container, search-area styles are the same as before) ... */
+
+#map-container {
+    position: relative; 
+    width: 100%;
+    /* Assuming a roughly square map for simplicity; adjust padding-top 
+       to match your SVG's width/height ratio. */
+    padding-top: 100%; 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#india-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the SVG states */
+.state {
+    fill: #b3cde3; /* Light blue fill for states */
+    stroke: #333333; /* Darker border for the state boundaries */
+    stroke-width: 1;
+    cursor: pointer; /* Makes it feel clickable */
+    transition: fill 0.3s;
+}
+
+.state:hover {
+    fill: #8ec3e8; /* Hover effect */
+}
+
+/* Style for the flag marker */
+.flag-marker {
+    position: absolute;
+    transform: translate(-50%, -100%); /* Places the tip of the flag icon at the coordinate */
+    font-size: 30px;
+    color: #FF6347; /* Tomato red color for the icon */
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Highlight the state that has the flag */
+.highlighted-state {
+    fill: #f0ad4e !important; /* A distinct highlight color */
+}
