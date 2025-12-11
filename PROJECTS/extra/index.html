@@ -17,11 +17,13 @@
     />
 </head>
 
-<body>
+<body class="bg-info-subtle">
 
     <div class="bg-primary text-center text-light fs-2">Indian Map</div>
 
     <div id="searchBox" class="d-flex justify-content-center gap-2 ">
+
+        <button onclick="addAll()" class="btn btn-primary">Add all</button>
 
         <select id="stateInput" onchange="placeFlag()">
             <option value="">-- Select State --</option>
@@ -56,10 +58,12 @@
             <option value="Uttar Pradesh">Uttar Pradesh</option>
             <option value="Uttarakhand">Uttarakhand</option>
             <option value="West Bengal">West Bengal</option>
-            
+            <option value="Sri Lanka">Sri Lanka</option>
         </select>
 
         <button onclick="reset()" style="padding: 7px 15px;">Reset</button>
+
+        <button onclick="toggleSound()" class="btn btn-warning" id="soundBtn">Sound On</button>
 
     </div>
 
@@ -69,6 +73,8 @@
         <img src="map.jpg" id="indiaMap" alt="India Map">
     </div>
 
+    <audio id="resetSound" src="reset.mp3"></audio>
+    <audio id="beepSound" src="beep1.mp3"></audio>
 <script src="script.js"></script>
 
 </body>

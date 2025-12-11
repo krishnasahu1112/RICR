@@ -3,13 +3,11 @@ const stateCoordinates = {
     "gujarat": {x: 15, y: 45},
     "maharashtra": {x: 30, y: 55},
     "madhya pradesh": {x: 35, y: 45},
-    "mp": {x: 35, y: 45},
     "uttar pradesh": {x: 45, y: 34},
     "punjab": {x: 30, y: 22},
     "himachal pradesh": {x: 35, y: 20},
     "jammu and kashmir": {x: 29, y: 12},
     "ladakh": {x: 35, y: 10},
-    "punjab": {x: 30, y: 20},
     "haryana": {x: 32, y: 26},
     "delhi": {x: 35, y: 28},
     "bihar": {x: 60, y: 37},
@@ -40,12 +38,11 @@ const capitals = {
     "gujarat": "Gandhinagar",
     "maharashtra": "Mumbai",
     "madhya pradesh": "Bhopal",
-    "uttar pradesh": "Lukhnow",
+    "uttar pradesh": "Lucknow",
     "punjab": "Chandigarh",
     "himachal pradesh": "Shimla",
     "jammu and kashmir": "Srinagar",
     "ladakh": "Leh",
-    "punjab": "Chandigarh",
     "haryana": "Chandigarh",
     "delhi": "New Delhi",
     "bihar": "Patna",
@@ -59,36 +56,38 @@ const capitals = {
     "andhra pradesh": "Amrawati",
     "tamil nadu": "Chennai",
     "karnataka": "Bengaluru",
-    "kerala": "Thriruvananthapuram",
+    "kerala": "Thiruvananthapuram",
     "assam": "Dispur",
     "tripura": "Agartala",
     "manipur": "Imphal",
     "nagaland": "Kohima",
-    "mizoram": "Aizwal",
-    "sri lanka": "Columbo",
+    "mizoram": "Aizawl",
+    "sri lanka": "Colombo",
     "meghalaya": "Shillong",
     "goa": "Panaji",
     "arunachal pradesh": "Itanagar"
 };
 
-function placeFlag() {
-    const input = document.getElementById("stateInput").value.trim().toLowerCase();
+function placeFlag(stateName) {
+    const input = stateName || document.getElementById("stateInput").value.trim().toLowerCase();
     const msg = document.getElementById("msg");
 
     if (!stateCoordinates[input]) {
-        msg.innerText = "State not found! Please enter a valid Indian state.";
+        // msg.innerText = "State not found! Please enter a valid Indian state.";
         return;
     }
 
     msg.innerText = "";
 
+    if (soundOn) document.getElementById("beepSound").play();
+
     let pos = stateCoordinates[input];
     let container = document.getElementById("map-container");
 
     let flag = document.createElement("img");
-    flag.src = "flag-fill.svg";
+    flag.src = "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg";
     flag.className = "flag";
-    flag.title = "State: " + document.getElementById("stateInput").value + "\nCapitals: "+ capitals[input] ;
+    flag.title = "State: " + document.getElementById("stateInput").value.toUpperCase() + "\nCapitals: "+ capitals[input].toUpperCase() ;
     
     flag.style.left = pos.x + "%";
     flag.style.top = pos.y + "%";
@@ -97,5 +96,19 @@ function placeFlag() {
 }
 
 function reset(){
+    if (soundOn) document.getElementById("resetSound").play();
     window.location.reload();
+}
+//            flag.src = "";
+
+
+function addAll() {
+    Object.keys(stateCoordinates).forEach(placeFlag);
+}
+
+let soundOn = true;
+
+function toggleSound() {
+    soundOn = !soundOn;
+    document.getElementById("soundBtn").innerText = soundOn ? "Sound On" : "Sound Off";
 }
