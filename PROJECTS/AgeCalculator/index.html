@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="d-flex justify-content-center m-3 bg-info-subtle">
+  <div class="bg-info p-2 w-25 border rounded">
+    
+    <div class="d-flex justify-content-center p-3 ">
+      <h1 class="d-flex justify-content-center">Age Calculator</h1>
+    </div>
+    
+    <div class="d-flex flex-column  align-items-center gap-3 p-2 ">
+      <div class="w-100 form-control d-flex justify-content-between p-2">
+        <label for="currDate">Current Date: </label>
+        <input type="date" name="currDate" id="currDate" placeholder="Enter Current Date" class="border border-start">
+      </div>
+      <div class="w-100 form-control d-flex justify-content-between p-2">
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob" placeholder="Enter Birth Date" class="border border-start">
+      </div>
+      <div class="m-2 ">
+        <button class="btn btn-primary" onclick="submit()">Calculate</button>
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>
