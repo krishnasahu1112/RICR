@@ -87,7 +87,7 @@ function placeFlag(stateName) {
     let flag = document.createElement("img");
     flag.src = "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg";
     flag.className = "flag";
-    flag.title = "State: " + document.getElementById("stateInput").value.toUpperCase() + "\nCapitals: "+ capitals[input].toUpperCase() ;
+    flag.title = "State: " + input.toUpperCase() + "\nCapitals: "+ capitals[input].toUpperCase() ;
     
     flag.style.left = pos.x + "%";
     flag.style.top = pos.y + "%";
