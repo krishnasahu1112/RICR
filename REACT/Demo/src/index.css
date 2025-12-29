@@ -1,3 +1,7 @@
 #head{
-  color: burlywood;
+  color: rgb(228, 139, 22);
+}
+
+body{
+  color: rgb(157, 109, 50) !important;
 }
