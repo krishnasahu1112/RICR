@@ -1,0 +1,115 @@
+[
+  { "CountryName": "Afghanistan", "CountryCode": "AF", "CurrencyCode": "AFN", "CurrencyName": "Afghan Afghani" },
+  { "CountryName": "Albania", "CountryCode": "AL", "CurrencyCode": "ALL", "CurrencyName": "Albanian Lek" },
+  { "CountryName": "Algeria", "CountryCode": "DZ", "CurrencyCode": "DZD", "CurrencyName": "Algerian Dinar" },
+  { "CountryName": "American Samoa", "CountryCode": "AS", "CurrencyCode": "USD", "CurrencyName": "United States Dollar" },
+  { "CountryName": "Andorra", "CountryCode": "AD", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Angola", "CountryCode": "AO", "CurrencyCode": "AOA", "CurrencyName": "Angolan Kwanza" },
+  { "CountryName": "Anguilla", "CountryCode": "AI", "CurrencyCode": "XCD", "CurrencyName": "East Caribbean Dollar" },
+  { "CountryName": "Antarctica", "CountryCode": "AQ", "CurrencyCode": "", "CurrencyName": "" },
+  { "CountryName": "Antigua and Barbuda", "CountryCode": "AG", "CurrencyCode": "XCD", "CurrencyName": "East Caribbean Dollar" },
+  { "CountryName": "Argentina", "CountryCode": "AR", "CurrencyCode": "ARS", "CurrencyName": "Argentine Peso" },
+  { "CountryName": "Armenia", "CountryCode": "AM", "CurrencyCode": "AMD", "CurrencyName": "Armenian Dram" },
+  { "CountryName": "Aruba", "CountryCode": "AW", "CurrencyCode": "AWG", "CurrencyName": "Aruban Florin" },
+  { "CountryName": "Australia", "CountryCode": "AU", "CurrencyCode": "AUD", "CurrencyName": "Australian Dollar" },
+  { "CountryName": "Austria", "CountryCode": "AT", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Azerbaijan", "CountryCode": "AZ", "CurrencyCode": "AZN", "CurrencyName": "Azerbaijani Manat" },
+
+  { "CountryName": "Bahamas", "CountryCode": "BS", "CurrencyCode": "BSD", "CurrencyName": "Bahamian Dollar" },
+  { "CountryName": "Bahrain", "CountryCode": "BH", "CurrencyCode": "BHD", "CurrencyName": "Bahraini Dinar" },
+  { "CountryName": "Bangladesh", "CountryCode": "BD", "CurrencyCode": "BDT", "CurrencyName": "Bangladeshi Taka" },
+  { "CountryName": "Barbados", "CountryCode": "BB", "CurrencyCode": "BBD", "CurrencyName": "Barbadian Dollar" },
+  { "CountryName": "Belarus", "CountryCode": "BY", "CurrencyCode": "BYN", "CurrencyName": "Belarusian Ruble" },
+  { "CountryName": "Belgium", "CountryCode": "BE", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Belize", "CountryCode": "BZ", "CurrencyCode": "BZD", "CurrencyName": "Belize Dollar" },
+  { "CountryName": "Benin", "CountryCode": "BJ", "CurrencyCode": "XOF", "CurrencyName": "West African CFA Franc" },
+  { "CountryName": "Bhutan", "CountryCode": "BT", "CurrencyCode": "BTN", "CurrencyName": "Bhutanese Ngultrum" },
+  { "CountryName": "Bolivia", "CountryCode": "BO", "CurrencyCode": "BOB", "CurrencyName": "Bolivian Boliviano" },
+  { "CountryName": "Bosnia and Herzegovina", "CountryCode": "BA", "CurrencyCode": "BAM", "CurrencyName": "Convertible Mark" },
+  { "CountryName": "Botswana", "CountryCode": "BW", "CurrencyCode": "BWP", "CurrencyName": "Botswana Pula" },
+  { "CountryName": "Brazil", "CountryCode": "BR", "CurrencyCode": "BRL", "CurrencyName": "Brazilian Real" },
+  { "CountryName": "Brunei", "CountryCode": "BN", "CurrencyCode": "BND", "CurrencyName": "Brunei Dollar" },
+  { "CountryName": "Bulgaria", "CountryCode": "BG", "CurrencyCode": "BGN", "CurrencyName": "Bulgarian Lev" },
+  { "CountryName": "Burkina Faso", "CountryCode": "BF", "CurrencyCode": "XOF", "CurrencyName": "West African CFA Franc" },
+  { "CountryName": "Burundi", "CountryCode": "BI", "CurrencyCode": "BIF", "CurrencyName": "Burundian Franc" },
+
+  { "CountryName": "Cambodia", "CountryCode": "KH", "CurrencyCode": "KHR", "CurrencyName": "Cambodian Riel" },
+  { "CountryName": "Cameroon", "CountryCode": "CM", "CurrencyCode": "XAF", "CurrencyName": "Central African CFA Franc" },
+  { "CountryName": "Canada", "CountryCode": "CA", "CurrencyCode": "CAD", "CurrencyName": "Canadian Dollar" },
+  { "CountryName": "Chile", "CountryCode": "CL", "CurrencyCode": "CLP", "CurrencyName": "Chilean Peso" },
+  { "CountryName": "China", "CountryCode": "CN", "CurrencyCode": "CNY", "CurrencyName": "Yuan Renminbi" },
+  { "CountryName": "Colombia", "CountryCode": "CO", "CurrencyCode": "COP", "CurrencyName": "Colombian Peso" },
+  { "CountryName": "Costa Rica", "CountryCode": "CR", "CurrencyCode": "CRC", "CurrencyName": "Costa Rican Colón" },
+  { "CountryName": "Croatia", "CountryCode": "HR", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Cuba", "CountryCode": "CU", "CurrencyCode": "CUP", "CurrencyName": "Cuban Peso" },
+  { "CountryName": "Cyprus", "CountryCode": "CY", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Czech Republic", "CountryCode": "CZ", "CurrencyCode": "CZK", "CurrencyName": "Czech Koruna" },
+
+  { "CountryName": "Denmark", "CountryCode": "DK", "CurrencyCode": "DKK", "CurrencyName": "Danish Krone" },
+  { "CountryName": "Dominican Republic", "CountryCode": "DO", "CurrencyCode": "DOP", "CurrencyName": "Dominican Peso" },
+
+  { "CountryName": "Egypt", "CountryCode": "EG", "CurrencyCode": "EGP", "CurrencyName": "Egyptian Pound" },
+  { "CountryName": "Estonia", "CountryCode": "EE", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Ethiopia", "CountryCode": "ET", "CurrencyCode": "ETB", "CurrencyName": "Ethiopian Birr" },
+
+  { "CountryName": "Finland", "CountryCode": "FI", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "France", "CountryCode": "FR", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+
+  { "CountryName": "Germany", "CountryCode": "DE", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Ghana", "CountryCode": "GH", "CurrencyCode": "GHS", "CurrencyName": "Ghanaian Cedi" },
+  { "CountryName": "Greece", "CountryCode": "GR", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+
+  { "CountryName": "Hungary", "CountryCode": "HU", "CurrencyCode": "HUF", "CurrencyName": "Hungarian Forint" },
+
+  { "CountryName": "Iceland", "CountryCode": "IS", "CurrencyCode": "ISK", "CurrencyName": "Icelandic Króna" },
+  { "CountryName": "India", "CountryCode": "IN", "CurrencyCode": "INR", "CurrencyName": "Indian Rupee" },
+  { "CountryName": "Indonesia", "CountryCode": "ID", "CurrencyCode": "IDR", "CurrencyName": "Indonesian Rupiah" },
+  { "CountryName": "Ireland", "CountryCode": "IE", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Israel", "CountryCode": "IL", "CurrencyCode": "ILS", "CurrencyName": "Israeli New Shekel" },
+  { "CountryName": "Italy", "CountryCode": "IT", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+
+  { "CountryName": "Japan", "CountryCode": "JP", "CurrencyCode": "JPY", "CurrencyName": "Japanese Yen" },
+
+  { "CountryName": "Kenya", "CountryCode": "KE", "CurrencyCode": "KES", "CurrencyName": "Kenyan Shilling" },
+  { "CountryName": "Kuwait", "CountryCode": "KW", "CurrencyCode": "KWD", "CurrencyName": "Kuwaiti Dinar" },
+
+  { "CountryName": "Malaysia", "CountryCode": "MY", "CurrencyCode": "MYR", "CurrencyName": "Malaysian Ringgit" },
+  { "CountryName": "Mexico", "CountryCode": "MX", "CurrencyCode": "MXN", "CurrencyName": "Mexican Peso" },
+
+  { "CountryName": "Nepal", "CountryCode": "NP", "CurrencyCode": "NPR", "CurrencyName": "Nepalese Rupee" },
+  { "CountryName": "Netherlands", "CountryCode": "NL", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "New Zealand", "CountryCode": "NZ", "CurrencyCode": "NZD", "CurrencyName": "New Zealand Dollar" },
+  { "CountryName": "Nigeria", "CountryCode": "NG", "CurrencyCode": "NGN", "CurrencyName": "Nigerian Naira" },
+  { "CountryName": "Norway", "CountryCode": "NO", "CurrencyCode": "NOK", "CurrencyName": "Norwegian Krone" },
+
+  { "CountryName": "Pakistan", "CountryCode": "PK", "CurrencyCode": "PKR", "CurrencyName": "Pakistani Rupee" },
+  { "CountryName": "Philippines", "CountryCode": "PH", "CurrencyCode": "PHP", "CurrencyName": "Philippine Peso" },
+  { "CountryName": "Poland", "CountryCode": "PL", "CurrencyCode": "PLN", "CurrencyName": "Polish Złoty" },
+  { "CountryName": "Portugal", "CountryCode": "PT", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+
+  { "CountryName": "Qatar", "CountryCode": "QA", "CurrencyCode": "QAR", "CurrencyName": "Qatari Riyal" },
+
+  { "CountryName": "Romania", "CountryCode": "RO", "CurrencyCode": "RON", "CurrencyName": "Romanian Leu" },
+  { "CountryName": "Russia", "CountryCode": "RU", "CurrencyCode": "RUB", "CurrencyName": "Russian Ruble" },
+
+  { "CountryName": "Saudi Arabia", "CountryCode": "SA", "CurrencyCode": "SAR", "CurrencyName": "Saudi Riyal" },
+  { "CountryName": "Singapore", "CountryCode": "SG", "CurrencyCode": "SGD", "CurrencyName": "Singapore Dollar" },
+  { "CountryName": "South Africa", "CountryCode": "ZA", "CurrencyCode": "ZAR", "CurrencyName": "South African Rand" },
+  { "CountryName": "South Korea", "CountryCode": "KR", "CurrencyCode": "KRW", "CurrencyName": "South Korean Won" },
+  { "CountryName": "Spain", "CountryCode": "ES", "CurrencyCode": "EUR", "CurrencyName": "Euro" },
+  { "CountryName": "Sri Lanka", "CountryCode": "LK", "CurrencyCode": "LKR", "CurrencyName": "Sri Lankan Rupee" },
+  { "CountryName": "Sweden", "CountryCode": "SE", "CurrencyCode": "SEK", "CurrencyName": "Swedish Krona" },
+  { "CountryName": "Switzerland", "CountryCode": "CH", "CurrencyCode": "CHF", "CurrencyName": "Swiss Franc" },
+
+  { "CountryName": "Thailand", "CountryCode": "TH", "CurrencyCode": "THB", "CurrencyName": "Thai Baht" },
+  { "CountryName": "Turkey", "CountryCode": "TR", "CurrencyCode": "TRY", "CurrencyName": "Turkish Lira" },
+
+  { "CountryName": "Ukraine", "CountryCode": "UA", "CurrencyCode": "UAH", "CurrencyName": "Ukrainian Hryvnia" },
+  { "CountryName": "United Arab Emirates", "CountryCode": "AE", "CurrencyCode": "AED", "CurrencyName": "UAE Dirham" },
+  { "CountryName": "United Kingdom", "CountryCode": "GB", "CurrencyCode": "GBP", "CurrencyName": "Pound Sterling" },
+  { "CountryName": "United States of America", "CountryCode": "US", "CurrencyCode": "USD", "CurrencyName": "United States Dollar" },
+
+  { "CountryName": "Vietnam", "CountryCode": "VN", "CurrencyCode": "VND", "CurrencyName": "Vietnamese Dong" },
+
+  { "CountryName": "Zimbabwe", "CountryCode": "ZW", "CurrencyCode": "ZWL", "CurrencyName": "Zimbabwean Dollar" }
+]

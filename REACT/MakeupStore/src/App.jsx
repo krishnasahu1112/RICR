@@ -12,6 +12,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>   
+        <Toaster position="top-center" reverseOrder={false}/>
         <Header />
         <Routes>
           <Route path='/'        element={<Home />}    />
