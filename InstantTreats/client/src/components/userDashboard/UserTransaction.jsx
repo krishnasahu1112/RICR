@@ -6,4 +6,4 @@ const UserTransaction = () => {
   )
 }
 
-export default UserTransaction
+export default UserTransaction;
